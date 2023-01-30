@@ -1,8 +1,8 @@
-import MoviePlayList from './components/MoviePlayList'
-import SongPlayList from './components/SongPlayList'
 import './styles.css'
 import { useDispatch } from 'react-redux'
 import { reset } from './store'
+import MoviePlayList from './components/MoviePlayList'
+import SongPlayList from './components/SongPlayList'
 
 const App = () => {
     const dispatch = useDispatch()
